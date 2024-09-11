@@ -71,8 +71,8 @@
         <h1>Slide 7</h1>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere magni magnam unde ipsam repudiandae explicabo expedita labore, sequi minus neque beatae voluptatum, quasi accusamus quia quis voluptas laborum ad! Ab totam doloribus, excepturi possimus rem vel quia fugit molestiae officiis!
     </div>
-    <button on:click={next} id="next"> next </button>
-    <button on:click={prev} id="prev"> prev </button>
+    <button onclick={next} id="next"> next </button>
+    <button onclick={prev} id="prev"> prev </button>
 </div>
 
 <style>
@@ -98,7 +98,8 @@
 #next, #prev{
     position: absolute;
     top: 40%;
-    color: #fff;
+    color: black;
+    opacity: 0.3;
     background-color: transparent;
     border: none;
     font-size: xxx-large;
